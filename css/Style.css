@@ -53,12 +53,15 @@ footer {
     text-align: center;
     font-size: 20px;
     padding-top: 20em;
+    padding-bottom: 3em;
     
 }
 
-.storbild {
+.image-bg-fixed-height {
 
-    
+    background: url('images/keyboard.jpg');
+    height: 800px;
+
 }
 
 footer p {
@@ -84,6 +87,19 @@ ul {
     border-bottom: 20px solid #f5d316;
 
 }
+
+.omoss {
+    
+    padding-top: 4em;
+    padding-bottom: 7em;
+    font-size: 25px;
+    background-color: white;
+    width: 100%;
+    border-top: 20px solid #f5d316;
+    border-bottom: 20px solid #f5d316;
+    
+}
+
 
 .littlelogo {
  width: 140px;
