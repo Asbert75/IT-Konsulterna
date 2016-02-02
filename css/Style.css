@@ -26,3 +26,24 @@ img {
     
  -webkit-user-drag: none;   
 }
+
+footer {
+ 
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2em;
+    
+}
+
+footer p {
+ color: white;
+}
+
+ul {
+ 
+   margin: 0 auto;
+    text-align: left;
+    width: 10em;
+    font-size: 16px;
+    
+}
