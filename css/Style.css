@@ -22,33 +22,20 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.col-lg-2 {
+    background: red;
+    height: 200px;
+}
 
-div .menu {
-    position: absolute;
-    border-radius: 50%;
+a span {
+    border-radius: 100%;
+    display: block;
     width: 100px;
     height: 100px;
-    background: #f5d316;
+    background: black;
 }
 
-div .two {
-    height: 100px;
-}
 
-.menu img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    max-width: 90%;
-    max-height: 90%;
-}
-
-img {
-    
- -webkit-user-drag: none;   
-}
 
 footer {
  
