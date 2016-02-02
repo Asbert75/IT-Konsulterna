@@ -1,33 +1,13 @@
 * {
-  margin = 0;
-  padding = 0;
+    margin: 0;
+    padding: 0;
 }
 
-.col-lg-5 {
-    background: red;
-}
-
-.col-lg-2 {
-    background: black;
-}
-
-ul {
-    
-}
-
-li {
-    display: inline;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
+html {
+    background: #111111;
 }
 
 .header {
-    height: 400px;
-    background: #F5D316;
+    height: 550px;
+    background: #f5d316;
 }
