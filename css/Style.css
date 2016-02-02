@@ -3,11 +3,20 @@
     padding: 0;
 }
 
-html {
+body {
+    height: 2500px;
     background: #111111;
 }
 
 .header {
     height: 550px;
     background: #f5d316;
+}
+
+.header-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 }
