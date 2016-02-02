@@ -19,7 +19,6 @@ body {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-<<<<<<< HEAD
     transform: translate(-50%, -50%);
 }
 
@@ -45,8 +44,3 @@ div .two {
     max-width: 90%;
     max-height: 90%;
 }
-=======
-    transform: translate(-50%, -50%) 
-        
-}
->>>>>>> origin/master
