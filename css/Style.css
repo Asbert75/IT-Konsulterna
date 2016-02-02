@@ -14,12 +14,63 @@ body {
 }
 
 .header-img {
+    max-width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
-        
+    transform: translate(-50%, -50%);
 }
 
 
+<<<<<<< HEAD
+=======
+div .menu {
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #f5d316;
+}
+
+div .two {
+    height: 100px;
+}
+
+.menu img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+img {
+    
+ -webkit-user-drag: none;   
+}
+
+footer {
+ 
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2em;
+    
+}
+
+footer p {
+ color: white;
+}
+
+ul {
+ 
+   margin: 0 auto;
+    text-align: left;
+    width: 10em;
+    font-size: 16px;
+    
+}
+
+>>>>>>> origin/master
