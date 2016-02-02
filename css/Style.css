@@ -21,28 +21,18 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
-.col-lg-2 {
-    background: red;
-    height: 200px;
-}
-
-div .menu {
-    position: absolute;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background: #f5d316;
-}
-
 a span {
     border-radius: 100%;
     display: block;
     width: 100px;
     height: 100px;
-    background: black;
+    background: #f5d316;
 }
 
+img.om {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
 footer {
