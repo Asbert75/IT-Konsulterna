@@ -22,9 +22,21 @@ body {
     transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
 .col-lg-2 {
     background: red;
     height: 200px;
+=======
+
+<<<<<<< HEAD
+=======
+div .menu {
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #f5d316;
+>>>>>>> origin/master
 }
 
 a span {
@@ -58,3 +70,4 @@ ul {
     
 }
 
+>>>>>>> origin/master
