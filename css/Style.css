@@ -59,8 +59,9 @@ footer {
 
 .image-bg-fixed-height {
 
-    background: url('images/keyboard.jpg');
-    height: 800px;
+    background: url('keyboard.jpg') no-repeat;
+    height: 50em;
+    background-size: 100% auto;
 
 }
 
