@@ -5,14 +5,18 @@
 }
 
 .container-fluid { 
-  padding: 0px;
+    padding: 0px;
 }
 
 .row {
- width: 100%;
- margin-left: 0px;
- margin-right: 0px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
 
+}
+
+.col-md-12 {
+    margin-top: 8em;
 }
 
 body {
@@ -80,7 +84,7 @@ ul {
 .services {
     padding-top: 4em;
     padding-bottom: 7em;
-    margin-top: 20em;
+    margin-top: 5em;
     font-size: 25px;
     background-color: white;
     width: 100%;
@@ -106,3 +110,4 @@ ul {
  width: 140px;
  text-align: center;
 }
+
