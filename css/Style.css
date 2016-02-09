@@ -170,3 +170,40 @@ footer p {
 .find {
  color: #888787;   
 }
+
+
+a span.text-content {
+    border-radius: 100%;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #f5d316;
+}
+
+.center-text {
+	width: 60px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2.4em;
+	color: #333;
+	font-size: 1.2em;
+}
+
+.bottom-text {
+	width: 35px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2.4em;
+	color: #333;
+	font-size: 1.2em;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
