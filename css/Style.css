@@ -90,8 +90,14 @@ footer {
     text-align: center;
     font-size: 20px;
     padding-top: 7em;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
+    border-bottom: 15px solid #f5d316;
     
+}
+
+footer ul {
+    font-size: 16px;
+    color: #888787;
 }
 
 .image-bg-fixed-height {
@@ -106,13 +112,7 @@ footer p {
  color: white;
 }
 
-ul {
- 
-   margin: 0 auto;
-    text-align: left;
-    width: 10em;
-    font-size: 16px;
-}
+
 
 .services {
     padding-top: 4em;
@@ -163,4 +163,10 @@ ul {
 		transition: all 0.1s linear;
 		text-decoration: none;
 		}
+.name {
+ font-size: 2em;   
+}
 
+.find {
+ color: #888787;   
+}
