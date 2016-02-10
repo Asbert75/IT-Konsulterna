@@ -178,6 +178,7 @@ a span.text-content {
     width: 100px;
     height: 100px;
     background: #f5d316;
+	font-weight: 600;
 }
 
 .center-text {
@@ -208,18 +209,17 @@ a:hover {
 	display: none;
 }
 
- textarea {
- width: 400px;
- font-size: 14px;
-      border: 5px solid #111111;
+textarea {
+	width: 400px;
+	font-size: 14px;
+	border: 2px solid #111111;
 }
 
 input[type=text] {
- width: 400px;
- height: 40px;
- font-size: 17px;
- border: 3px solid #111111;
- background: #111111;
+	width: 400px;
+	height: 40px;
+	font-size: 17px;
+	border: 2px solid #111111;
 }
 
 input[type=text]:active {
@@ -227,7 +227,7 @@ input[type=text]:active {
 }
 
 input[type=text]:focus {
-     background: transparent;   
+    background: transparent;   
 }
 
 input[type=text]:hover{
@@ -235,57 +235,49 @@ input[type=text]:hover{
 }
 
 .submitknapp {
- width: 100px; 
- margin: 0 auto;
- font-size: 17px;
-  border: 3px solid #111111;
-background: #111111;
-    
+	width: 150px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 17px;
+	border: 2px solid #111111;
+	background: rgba(0,0,0,0);
+	color: #111;
+	text-transform: uppercase;
+}
+
+.submitknapp:hover {
+	background: #111;
+	color: white;
 }
 
 
 .form p {
- margin-top: 1em;
- font-size: 17px;
+	margin-top: 1em;
+	font-size: 17px;
+}
+
+select option:hover {
+	background: #f5316a;
 }
 
 select {
- margin-top: 1em;   
- font-size: 17px;
-     border: 3px solid #111111;
+	margin-top: 0em; 
+	font-size: 17px;
+	border: 2px solid #111111;
 }
 
 
 input[type=checkbox]{
-background: #111111;
-
+	background: #111111;
 }
 
 input[type=checkbox]:focus{
-background: transparent;
+	background: transparent;
 }
-
-
-input:active {
-	opacity: 0.6;
-}
-
-input:hover{
-	opacity: 0.8;
-}
-
-textarea:active {
- opacity: 0.6;   
-}
-
-textarea:hover {
- opacity: 0.8;   
-}
-
 
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+	outline: 2px solid #F5D316;
 }
