@@ -1,15 +1,4 @@
 $(document).ready(function() {
-	$(window).scroll(function () {});
-		$('.scrollup').click(function () {
-			$("html, body").animate({
-				scrollTop: 0
-			}, 1000);
-			return false;
-		});
-		
-		
-		
-		
 		$(".Explanation").hover(function(){
 			$('.image-content').addClass('hidden');
 			$('.text-content').removeClass('hidden');
@@ -17,5 +6,20 @@ $(document).ready(function() {
 			$('.image-content').removeClass('hidden');
 			$('.text-content').addClass('hidden');
 		});
-		
+	
+		$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+		});
+
+
+	
 	});
