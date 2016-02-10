@@ -102,7 +102,7 @@ footer ul {
 
 .image-bg-fixed-height {
 
-    background: url('keyboard.jpg') no-repeat;
+    background: url('../images/keyboard.jpg') no-repeat;
     height: 50em;
     background-size: 100% auto;
 
@@ -208,5 +208,84 @@ a:hover {
 	display: none;
 }
 
+ textarea {
+ width: 400px;
+ font-size: 14px;
+      border: 5px solid #111111;
+}
+
+input[type=text] {
+ width: 400px;
+ height: 40px;
+ font-size: 17px;
+ border: 3px solid #111111;
+ background: #111111;
+}
+
+input[type=text]:active {
+	opacity: 0.6;
+}
+
+input[type=text]:focus {
+     background: transparent;   
+}
+
+input[type=text]:hover{
+	opacity: 0.8;
+}
+
+.submitknapp {
+ width: 100px; 
+ margin: 0 auto;
+ font-size: 17px;
+  border: 3px solid #111111;
+background: #111111;
+    
+}
 
 
+.form p {
+ margin-top: 1em;
+ font-size: 17px;
+}
+
+select {
+ margin-top: 1em;   
+ font-size: 17px;
+     border: 3px solid #111111;
+}
+
+
+input[type=checkbox]{
+background: #111111;
+
+}
+
+input[type=checkbox]:focus{
+background: transparent;
+}
+
+
+input:active {
+	opacity: 0.6;
+}
+
+input:hover{
+	opacity: 0.8;
+}
+
+textarea:active {
+ opacity: 0.6;   
+}
+
+textarea:hover {
+ opacity: 0.8;   
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
